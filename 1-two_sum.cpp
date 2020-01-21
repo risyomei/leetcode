@@ -1,3 +1,4 @@
+// hash
 struct Data {
     int index;
     int value;

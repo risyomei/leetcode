@@ -1,131 +1,99 @@
-REF: https://zhuanlan.zhihu.com/p/89392459
-
-#### Pattern: Sliding window
-
-- [ ] Maximum Sum Subarray of Size K (easy)
-- [ ] Smallest Subarray with a given sum (easy)
-- [ ] Longest Substring with K Distinct Characters (medium)
-- [ ] Fruits into Baskets (medium)
-- [ ] No-repeat Substring (hard)
-- [ ] Longest Substring with Same Letters after Replacement (hard)
-- [ ] Longest Subarray with Ones after Replacement (hard)
-
-#### Pattern: two points
-
-- [ ] Pair with Target Sum (easy)
-- [ ] Remove Duplicates (easy)
-- [ ] Squaring a Sorted Array (easy)
-- [ ] Triplet Sum to Zero (medium)
-- [ ] Triplet Sum Close to Target (medium)
-- [ ] Triplets with Smaller Sum (medium)
-- [ ] Subarrays with Product Less than a Target (medium)
-- [ ] Dutch National Flag Problem (medium)
-
-#### Pattern: Fast & Slow pointers
-
-- [ ] LinkedList Cycle (easy)
-- [ ] Start of LinkedList Cycle (medium)
-- [ ] Happy Number (medium)
-- [ ] Middle of the LinkedList (easy)
-
-#### Pattern: Merge Intervals
-
-- [ ] Merge Intervals (medium)
-- [ ] Insert Interval (medium)
-- [ ] Intervals Intersection (medium)
-- [ ] Conflicting Appointments (medium)
-
-#### Pattern: Cyclic Sort
-
-- [ ] Cyclic Sort (easy)
-- [ ] Find the Missing Number (easy)
-- [ ] Find all Missing Numbers (easy)
-- [ ] Find the Duplicate Number (easy)
-- [ ] Find all Duplicate Numbers (easy)
-
-#### Pattern: In-place Reversal of a LinkedList
-
-- [ ] Reverse a LinkedList (easy)
-- [ ] Reverse a Sub-list (medium)
-- [ ] Reverse every K-element Sub-list (medium)
-
-#### Pattern: Tree Breadth First Search
-
-- [ ] Binary Tree Level Order Traversal (easy)
-- [ ] Reverse Level Order Traversal (easy)
-- [ ] Zigzag Traversal (medium)
-- [ ] Level Averages in a Binary Tree (easy)
-- [ ] Minimum Depth of a Binary Tree (easy)
-- [ ] Level Order Successor (easy)
-- [ ] Connect Level Order Siblings (medium)
-
-#### Pattern: Tree Depth First Search
-
-- [ ] Binary Tree Path Sum (easy)
-- [ ] All Paths for a Sum (medium)
-- [ ] Sum of Path Numbers (medium)
-- [ ] Path With Given Sequence (medium)
-- [ ] Count Paths for a Sum (medium)
-
-#### Pattern: Two Heaps，双堆类型
-
-- [ ] Find the Median of a Number Stream (medium)
-- [ ] Sliding Window Median (hard)
-- [ ] Maximize Capital (hard)
-
-#### Pattern: Subsets，子集类型，一般都是使用多重DFS
-
-- [ ] Subsets (easy)
-- [ ] Subsets With Duplicates (easy)
-- [ ] Permutations (medium)
-- [ ] String Permutations by changing case (medium)
-- [ ] Balanced Parentheses (hard)
-- [ ] Unique Generalized Abbreviations (hard)
-
-#### Pattern: Modified Binary Search，改造过的二分
-
-Or[ ] der-agnostic Binary Search (easy)
-Ce[ ] iling of a Number (medium)
-Ne[ ] xt Letter (medium)
-Nu[ ] mber Range (medium)
-Se[ ] arch in a Sorted Infinite Array (medium)
-Mi[ ] nimum Difference Element (medium)
-Bi[ ] tonic Array Maximum (easy)
-
-####  Pattern: Top ‘K’ Elements，前K个系列
-
-- [ ] Top ‘K’ Numbers (easy)
-- [ ] Kth Smallest Number (easy)
-- [ ] ‘K’ Closest Points to the Origin (easy)
-- [ ] Connect Ropes (easy)
-- [ ] Top ‘K’ Frequent Numbers (medium)
-- [ ] Frequency Sort (medium)
-- [ ] Kth Largest Number in a Stream (medium)
-- [ ] ‘K’ Closest Numbers (medium)
-- [ ] Maximum Distinct Elements (medium)
-- [ ] Sum of Elements (medium)
-- [ ] Rearrange String (hard)
-
-#### Pattern: K-way merge，多路归并
-
-- [ ] Merge K Sorted Lists (medium)
-- [ ] Kth Smallest Number in M Sorted Lists (Medium)
-- [ ] Kth Smallest Number in a Sorted Matrix (Hard)
-- [ ] Smallest Number Range (Hard)
+REF：https://www.zhihu.com/question/280279208/answer/1118675237
 
 
+#### Hash相关
+- [ ]	q1_两数之和
 
-#### Pattern: 0/1 Knapsack (Dynamic Programming)，0/1背包类型
+#### 链表操作
+- [ ]	q2_两数相加
+- [ ]	q19_删除链表的倒数第N个节点
+- [ ]	q61_旋转链表
+- [ ]	q138_复制带随机指针的链表
+- [ ]	q206_反转链表
 
-- [ ] 0/1 Knapsack (medium)
-- [ ] Equal Subset Sum Partition (medium)
-- [ ] Subset Sum (medium)
-- [ ] Minimum Subset Sum Difference (hard)
+#### 双指针遍历/滑动窗口
+- [ ]	q3_无重复字符的最长子串
+- [ ]	q11_盛最多水的容器
+- [ ]	q15_三数之和
+- [ ]	q16_最接近的三数之和
+- [ ]	q26_删除排序数组中的重复项
+- [ ]	q42_接雨水
+- [ ]	q121_买卖股票的最佳时机
+- [ ]	q209_长度最小的子数组
 
-#### Pattern: Topological Sort (Graph)，拓扑排序类型
+#### 快慢指针遍历
+- [ ]	q141_环形链表
+- [ ]	q202_快乐数
+- [ ]	q876_链表的中间结点
 
-- [ ] Topological Sort (medium)
-- [ ] Tasks Scheduling (medium)
-- [ ] Tasks Scheduling Order (medium)
-- [ ] All Tasks Scheduling Orders (hard)
-- [ ] Alien Dictionary (hard)
+#### 区间合并
+- [ ]	q56_合并区间
+
+#### 字符串操作
+- [ ]	q6_Z字形变换
+- [ ]	q14_最长公共前缀
+- [ ]	q763_划分字母区间
+
+#### 数字操作
+- [ ]	q7_整数反转
+- [ ]	q8_字符串转换整数
+- [ ]	q9_回文数
+- [ ]	q43_字符串相乘
+- [ ]	q172_阶乘后的零
+- [ ]	q258_各位相加
+
+#### 数组操作
+- [ ]	q54_螺旋矩阵
+- [ ]	q73_矩阵置零
+- [ ]	q945_使数组唯一的最小增量
+
+#### 栈相关
+- [ ]	q20_有效的括号
+- [ ]	q32_最长有效括号
+- [ ]	q155_最小栈
+- [ ]	q224_基本计算器
+- [ ]	q316_去除重复字母
+
+#### 堆相关
+- [ ]	q215_数组中的第K个最大元素
+- [ ]	q347_前K个高频元素
+
+#### 递归
+- [ ]	q21_合并两个有序链表
+- [ ]	q101_对称二叉树
+- [ ]	q104_二叉树的最大深度
+- [ ]	q226_翻转二叉树
+- [ ]	q236_二叉树的最近公共祖先
+
+#### 分治法/二分法
+- [ ]	q23_合并K个排序链表
+- [ ]	q33_搜索旋转排序数组
+- [ ]	q34_在排序数组中查找元素的第一个和最后一个位置
+
+#### 动态规划
+- [ ]	q5_最长回文子串
+- [ ]	q53_最大子序和
+- [ ]	q62_不同路径
+- [ ]	q64_最小路径和
+- [ ]	q70_爬楼梯
+- [ ]	q118_杨辉三角
+- [ ]	q300_最长上升子序列
+- [ ]	q746_使用最小花费爬楼梯
+- [ ]	q1277_统计全为1的正方形子矩阵
+
+#### 回溯法
+- [ ]	q10_正则表达式匹配
+- [ ]	q22_括号生成
+- [ ]	q46_全排列
+
+#### 树的遍历
+- [ ]	q94_二叉树的中序遍历
+- [ ]	q102_二叉树的层次遍历
+- [ ]	q110_平衡二叉树
+- [ ]	q144_二叉树的前序遍历
+- [ ]	q145_二叉树的后序遍历
+
+#### 二叉搜索树相关
+- [ ]	q98_验证二叉搜索树
+- [ ]	q450_删除二叉搜索树中的节点
+- [ ]	q701_二叉搜索树中的插入操作

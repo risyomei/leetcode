@@ -19,8 +19,8 @@ public:
     Node* copyRandomList(Node* head) {
         
         
-        map<Node*, int>  src_mapping;
-        map<int, Node*>  dst_mapping;
+        unodered_map<Node*, int>  src_mapping;
+        unodered_map<int, Node*>  dst_mapping;
 
         // for old traverse
         Node* p = head;        

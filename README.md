@@ -10,8 +10,8 @@ REF：https://www.zhihu.com/question/280279208/answer/1118675237
 - [x]	q61_旋转链表 20200614
 - [x]	q138_复制带随机指针的链表 20200614
 - [x]	q206_反转链表 20200620
-- [x]   q92. Reverse Linked List II 
-- [ ]   q234. Palindrome Linked List
+- [x] q92. Reverse Linked List II
+- [x] q234. Palindrome Linked List
 
 #### 双指针遍历/滑动窗口
 - [x]	q3_无重复字符的最长子串

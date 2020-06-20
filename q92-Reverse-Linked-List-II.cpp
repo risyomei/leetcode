@@ -8,6 +8,14 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
+
+/*
+  
+	Step 1. Create a Reversed Link List with Specified nodes.
+    Step 2. Insert the Link List created in Step2 back to original List.
+
+*/
+
 class Solution {
 public:
     ListNode* reverseBetween(ListNode* head, int m, int n) {

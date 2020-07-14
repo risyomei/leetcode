@@ -103,3 +103,8 @@ Non two pointer problems:
 - [ ]	q98_验证二叉搜索树
 - [ ]	q450_删除二叉搜索树中的节点
 - [ ]	q701_二叉搜索树中的插入操作
+
+
+### MISC
+- [x] q66-Plus-One (20200714)
+- [x] q989-add-to-array-form-of-integer (20200714)

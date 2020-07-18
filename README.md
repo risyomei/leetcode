@@ -30,7 +30,7 @@ Non two pointer problems:
 
 #### 快慢指针遍历
 - [x]	q141_环形链表 (20200716)
-- [x] q142. Linked List Cycle II (20200718)
+- [x] q142. Linked List Cycle II (20200718) STAR
 - [ ]	q202_快乐数
 - [ ]	q876_链表的中间结点
 

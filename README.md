@@ -29,7 +29,8 @@ Non two pointer problems:
 - [x] q123 Best Time to Buy and Sell Stock III (DynamicProgramming) (20200712)
 
 #### 快慢指针遍历
-- [ ]	q141_环形链表
+- [x]	q141_环形链表 (20200716)
+- [x] q142. Linked List Cycle II (20200718)
 - [ ]	q202_快乐数
 - [ ]	q876_链表的中间结点
 

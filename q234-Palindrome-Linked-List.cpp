@@ -12,14 +12,24 @@
 /*
 Answer:
 
+Reverse the half of the link list, and then compare it with the rest.
+
 Step0:
-H: 1 - 2 - 3 - 3 - 2 -1
+H: 1 - 2 - 3 - 3 - 2 - 1
 
 Step1:
-H: 3 - 2 - 1
-R: 3 - 2 - 1
+H: 1 
+R: 2 - 3 - 3  - 2 - 1
 
 Step2:
+H: 2 - 1
+R: 3 - 3  - 2 - 1
+
+Step3:
+H: 3 - 2 - 1
+R: 3  - 2 - 1
+
+Step4:
 Compare
 */
 

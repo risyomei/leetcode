@@ -33,7 +33,7 @@ Non two pointer problems:
 - [x] q142. Linked List Cycle II (20200718) STAR
 - [x] q287. Find the Duplicate Number (20200720) STAR
 - [x]	q202_快乐数(20220902)
-- [ ]	q876_链表的中间结点
+- [x]	q876_链表的中间结点(20220902)
 
 #### 区间合并
 - [ ]	q56_合并区间

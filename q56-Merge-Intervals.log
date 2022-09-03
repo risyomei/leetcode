@@ -1,0 +1,35 @@
+q56-Merge-Intervals
+
+class Solution {
+    
+    struct sort_on_first {
+        inline bool operator() (vector<int>& vector1, vector<int>& vector2) {
+            return (vector1[0] < vector2[0]);
+        }
+    };
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) {
+        sort(intervals.begin(), intervals.end(), sort_on_first());
+        vector<vector<int>> answer;
+        
+        if(intervals.size()<=0)
+            return answer;
+        
+        //Initialize
+        answer.push_back(intervals[0]);
+        
+        for(int i=1; i<intervals.size(); i++) {
+            
+            vector last = answer.back();
+            
+            if(intervals[i][0] > last[1] ){
+                answer.push_back(intervals[i]);
+            }
+            else if(intervals[i][1] > last[1]) {
+                
+                answer.back()[1] = intervals[i][1];
+            }
+        }
+        return answer;   
+    }
+};

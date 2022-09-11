@@ -1,4 +1,3 @@
-14-Longest-Common-Prefix
 /*
 
 Vertical Scan
